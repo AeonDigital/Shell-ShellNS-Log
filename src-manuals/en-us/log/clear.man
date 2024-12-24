@@ -1,0 +1,3 @@
+Clear the log history.
+
+@return void

@@ -1,0 +1,27 @@
+Prints the log messages recorded in the history.
+
+@param ?int $1
+::
+  - default: "1"
+::
+Number of records to be printed.
+
+If **0** will print the entire log.
+If it is not indicated, or, if it is not a numeral, it will print the
+last record.
+
+@param ?bool $2
+::
+  - default : "0"
+  - list    : SHELLNS_PROMPT_OPTION_BOOL
+::
+Use **1** to enter the index of the message.
+
+@param ?string $3
+::
+  - default : "d"
+  - list    : SHELLNS_PROMPT_OPTION_SORT_TYPE
+::
+Print order.
+
+@return string

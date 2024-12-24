@@ -1,0 +1,6 @@
+Set a new message in log history.
+
+@param string $1
+Message to be stored.
+
+@return void
